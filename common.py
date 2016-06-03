@@ -39,6 +39,16 @@ def isPalindrome(num):
 			return False
 	return True
 
+def isPandigital(num):
+	sNum = str(num)
+	if "0" in num:
+		return False
+	for i in range(1, len(sNum)+1):
+		if str(i) not in sNum:
+			return False
+
+	return True
+
 def getPrimeDivisors(number, primeList):
 	retVal = []
 	for i in primeList:
