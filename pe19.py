@@ -19,10 +19,8 @@ for year in range(1901,2001):
 	for m in months:
 		numMonth = months[m]
 		if m == 2 and year % 4 == 0:
-			print "leap year: " + str(year)
 			numMonth+=1
 		if days[passedDay%7] == "sunday":
-			print "y:" +str(year) + " m:"+str(m)+" d:"+str(passedDay)
 			numFirstSundays+=1
 		for d in range(numMonth):
 			passedDay+=1
