@@ -31,7 +31,7 @@ projecteuler.net solutions with python
 | Problem 24 | 1.43099999428    |
 | Problem 25 | 0.232000112534   |
 | Problem 26 | 0.0440001487732  |
-| Problem 27 | 78.3349997997    |
+| Problem 27 | 12.9990000725    |
 | Problem 28 | 0.00399994850159 |
 | Problem 29 | 0.94000005722    |
 | Problem 30 | 3.35299992561    |
