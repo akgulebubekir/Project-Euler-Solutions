@@ -1,6 +1,6 @@
 # Project-Euler-Solutions
-projecteuler.net solutions with python
 
+[projecteuler](http://projecteuler.net) solutions with python
 
 
 | Problem    | Solution Time    |
@@ -45,3 +45,13 @@ projecteuler.net solutions with python
 | Problem 38 | 0.112999916077   |
 | Problem 39 | 20.4249999523    |
 | Problem 40 | 0.22900009155    |
+| Problem 41 | 6.82800006866    |
+| Problem 42 | 0.0249998569489  |
+| Problem 43 | 11.9679999352    |
+| Problem 44 | 8.49899983406    |
+| Problem 45 | 0.226000070572   |
+| Problem 46 | 0.335999965668   |
+| Problem 47 | 10.8380000591    |
+| Problem 48 | 0.0419998168945  |
+| Problem 49 | 0.0439999103546  |
+| Problem 50 | 23.2209999561    |
