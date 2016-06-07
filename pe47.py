@@ -46,8 +46,6 @@ def numCanditatesAround(num,isPrev=False,lim = 4):
 result = -1
 
 for i in range(10**5,10**6,4):
-	if i % 10**4 == 0:
-		print i
 	if len(getPrimeFactorsFast(i)) == 4 and numCanditatesAround(i)+numCanditatesAround(i,True) == 3:
 		result = i - numCanditatesAround(i,True)
 		break
