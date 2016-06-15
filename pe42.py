@@ -11,7 +11,7 @@ For example, the word value for SKY is 19 + 11 + 25 = 55 = t10. If the word valu
 Using words.txt (right click and 'Save Link/Target As...'), a 16K text file containing nearly two-thousand common English words, how many are triangle words?
 """
 
-words = open("p042_words.txt","r").read().replace('"',"").split(",")
+words = open("pe42_words.txt","r").read().replace('"',"").split(",")
 
 alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 

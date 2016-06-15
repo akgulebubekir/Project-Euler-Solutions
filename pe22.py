@@ -10,7 +10,7 @@ What is the total of all the name scores in the file?
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-names = open("p022_names.txt","r").read().replace('"',"").split(",")
+names = open("pe22_names.txt","r").read().replace('"',"").split(",")
 names.sort()
 
 sums = 0
