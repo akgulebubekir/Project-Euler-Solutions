@@ -20,22 +20,13 @@ Find the product of the coefficients, a and b, for the quadratic expression that
 """
 import common
 
-primes = common.getPrimes(10**4)
-
-def isPrime(num):
-	global primes
-	for  i in primes:
-		if num == i:
-			return True
-		elif i>num:
-			return False
-	return False
+primes = set(common.getPrimes(10**5))
 
 coeff,lenChain = 0, 0 
 for  a in range(-999,10**3):
 	for b in range(-999,10**3):
 		n = 1
-		while isPrime(n**2 + a*n + b):
+		while (n**2 + a*n + b) in primes:
 			n+=1
 
 		if lenChain<n:

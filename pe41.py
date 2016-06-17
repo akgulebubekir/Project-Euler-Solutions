@@ -7,6 +7,7 @@ What is the largest n-digit pandigital prime that exists?
 """
 
 import common
+import math
 
 primes = common.getPrimes(10**6)
 
@@ -15,11 +16,12 @@ palPrimes = []
 
 def isPrime(num):
 	global primes
-
-	for p in primes:
-		if num % p == 0:
+	for i in primes:
+		if i> math.sqrt(num)+1:
+			return True
+		if num % i == 0:
 			return False
-	return True
+
 
 for i in common.getPermutations(numbers):
 	#performance booster
@@ -30,7 +32,3 @@ for i in common.getPermutations(numbers):
 		palPrimes.append(int(i))
 
 print "result : " + str(max(palPrimes)) 
-
-
-
-

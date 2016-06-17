@@ -14,19 +14,9 @@ import common
 import math
 
 primes = common.getPrimes(10**6)
+primeset = set(common.getPrimes(10**6))
 
 result, resCount = 0, 0
-
-def isPrime(num):
-	global primes
-	for i in primes:
-		if i == num:
-			return True
-		elif num%i == 0:
-			return False
-		elif i>math.sqrt(num):
-			return True
-	return True
 
 for i in range(0,len(primes)):
 	num = 0
@@ -35,11 +25,10 @@ for i in range(0,len(primes)):
 		count+=1
 		num +=j 
 
-		if num < 10**6 and isPrime(num) and resCount<count:
+		if num < 10**6 and num in primeset and resCount<count:
 			resCount = count
 			result = num
 		if num>10**6:
 			break
 
 print "result : "+ str(result)
-

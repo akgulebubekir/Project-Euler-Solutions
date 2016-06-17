@@ -13,10 +13,10 @@ NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
 import common
 
-primes = common.getPrimes(10**6)
+primes = set(common.getPrimes(10**6))
 
 #don't seek if prime has even digit or 5
-optiPrimes= [x for x in primes if not any(d in str(x) for d in ["0","2","4","5","6","8"])]
+optiPrimes= set([x for x in primes if not any(d in str(x) for d in ["0","2","4","5","6","8"])])
 
 tprimes = []
 
@@ -32,4 +32,3 @@ for p in optiPrimes:
 		tprimes.append(p)
 
 print "result : "+ str(sum(tprimes))
-
