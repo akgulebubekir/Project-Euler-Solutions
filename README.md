@@ -4,9 +4,9 @@
 
 
 > **Time Measurement Hardware:**
->-**CPU**: Intel Core i7-4800MQ CPU (2.70GHz)
->-**RAM**: 16 GB
->-**OS** : Windows 8.1  64 Bit
+>- **CPU**: Intel Core i7-4800MQ CPU (2.70GHz)
+>- **RAM**: 16 GB
+>- **OS** : Windows 8.1  64 Bit
 
 #### <i class="icon-clock"></i> Problem Solving Times
 | Problem                                           | Solution Time(ms)	|
