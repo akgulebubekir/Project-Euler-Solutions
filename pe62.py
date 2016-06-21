@@ -18,4 +18,4 @@ candidates = set([x for x in cvals if cvals.count(x) == 5])
 result = min([x for x in cubes if cubes[x] in candidates])
 
 
-print "result : "+ str(result)
+print "result : "+ str(result**3)
