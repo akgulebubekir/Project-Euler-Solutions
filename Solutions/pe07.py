@@ -22,5 +22,5 @@ while len(primes)<10001:
 	if flag:
 		primes.append(num)
 
-print "result : " + str(primes[len(primes)-1])
+print "result : " + str(primes[-1])
 
